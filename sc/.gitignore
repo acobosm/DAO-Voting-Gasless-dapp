@@ -1,0 +1,15 @@
+# Dependencias
+lib/
+node_modules/
+
+# Archivos de compilación y caché
+out/
+cache/
+
+# Variables de entorno (Seguridad: Nunca subir llaves privadas)
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+broadcast/

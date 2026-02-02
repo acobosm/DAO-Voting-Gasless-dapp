@@ -1,0 +1,32 @@
+# === SMART CONTRACTS (sc) ===
+sc/lib/
+sc/out/
+sc/cache/
+sc/broadcast/
+
+# === FRONTEND (web) ===
+web/node_modules/
+web/.next/
+web/out/
+web/build/
+web/.pnp*
+web/.vercel
+web/*.tsbuildinfo
+web/next-env.d.ts
+
+# === SEGURIDAD Y LLAVES ===
+# Bloquea cualquier archivo .env en cualquier carpeta
+**/.env*
+*.pem
+*.key
+
+# === SISTEMA Y LOGS ===
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# === TESTING ===
+coverage/
